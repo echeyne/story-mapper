@@ -1,0 +1,57 @@
+{
+  "calculate_zoom": true,
+  "storymap": {
+    "map_type": "mapbox:emilymillard.m3a5d7j0",
+    "width": "100%",
+    "height": "400px",
+    "layout": "left",
+    "slides": [
+            {
+              "type": "overview",
+              "location": {
+                "lat": 55.887792,
+                "lon": -179.496145
+              },
+              "text": {
+                "headline": "This is the title 1",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              },
+              "media": {
+                "url": "https://uberfacts.files.wordpress.com/2012/12/puppies-9.jpg",
+                "caption": "This is a picture of puppies.",
+                "credit": "uberfacts"
+              }
+            },
+            {
+                 "location": {
+                     "lat": 49.923870,
+                     "lon": -119.433024
+                 },
+                 "text": {
+                     "headline": "This is the title 2",
+                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                 },
+                 "media": {
+                     "url": "https://uberfacts.files.wordpress.com/2012/12/puppies-9.jpg",
+                     "caption": "This is a picture of puppies.",
+                     "credit": "uberfacts"
+                 }
+            },
+            {
+              "location": {
+                "lat": 49.887792,
+                "lon": -123.496145
+              },
+              "text": {
+                "headline": "This is the title 3",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              },
+              "media": {
+                "url": "https://uberfacts.files.wordpress.com/2012/12/puppies-9.jpg",
+                "caption": "This is a picture of puppies.",
+                "credit": "uberfacts"
+              }
+            }]
+  }
+}
+

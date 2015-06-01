@@ -1,0 +1,48 @@
+/* css for tester site */
+
+body {
+    margin: 0;
+}
+
+.map {
+    height: 400px;
+}
+
+/* end css for tester site */
+
+
+/* --- slider ---- */
+.forward-arrow, .back-arrow {
+    z-index: 2;
+    position:absolute;
+    cursor: pointer;
+}
+
+.forward-arrow {
+    right: 0;
+}
+
+.disabled-arrow {
+    display: none;
+}
+
+.slider-content {
+    z-index: 1;
+    position:absolute;
+    overflow:scroll;
+}
+
+.slider-content.left-layout {
+    background-image: linear-gradient(to right, rgba(255,255,255,0.0001 ) 0%, rgba(255,255,255,0.87) 15%);
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(255,255,255,0.0001 ) 0%), color-stop(rgba(255,255,255,0.87) 15%));
+    background-image: linear-gradient(to right, rgba(255,255,255,0.0001 ) 0%, rgba(255,255,255,0.87) 15%);
+    background-repeat: repeat-x;
+    filter: e(%('progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)',argb(255,255,255, 0.0001),argb(255,255,255,0.80)));
+}
+
+.slider-image {
+    height: 50%;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}

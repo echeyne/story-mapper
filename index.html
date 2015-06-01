@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Story Mapper Tester</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="css/storymap.css">
+
+    <!-- Javascripts -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Additional Javascripts -->
+    <script type="text/javascript">
+        var json_content = "";
+        $.getJSON("map.json", function(json) {
+            json_content = json;
+        }).done(function() {
+            var script1 = document.createElement( 'script' );
+            script1.type = 'text/javascript';
+            script1.src = 'js/init.js';
+            document.body.appendChild(script1);
+
+            var script2 = document.createElement( 'script' );
+            script2.type = 'text/javascript';
+            script2.src = 'js/data.js';
+            document.body.appendChild(script2);
+
+            var script3 = document.createElement( 'script' );
+            script3.type = 'text/javascript';
+            script3.src = 'js/interact.js';
+            document.body.appendChild(script3);
+        });
+    </script>
+</body>
+</html>
